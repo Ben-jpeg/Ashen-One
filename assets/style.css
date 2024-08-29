@@ -1,0 +1,223 @@
+/* Balises principales / générales *****************************************/
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    font-size: 220%;
+    border: solid 4px pink;
+    padding: 0%;
+    margin: 0%;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXX ******************************FIN********/
+
+/* HEADER *****************************************/
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    color: black;
+    font-size: 265%;
+    margin-left: 2%;
+    margin-top: 1%;
+    padding: 0%;
+}
+
+header .menu {
+    display: flex;
+    justify-content: right;
+    font-size: 92%;
+    margin-top: 5%;
+}
+
+header .menu li {
+   /* border: solid 3px orange;  */
+    margin: 0%;
+    padding: 3px;
+    border: 2px solid;
+    max-width: 10rem;
+    max-height: 1.3rem;
+    margin-right: 3rem;
+    box-shadow: 0.30rem 0.30rem 0 rgb(0, 0, 0);
+}
+
+.burger li {
+    margin: 4%;
+    padding: 3px;
+    border: 2px solid;
+    max-width: 13rem;
+    max-height: 3rem;
+    margin-right: 3rem;
+    box-shadow: 0.30rem 0.30rem 0 rgb(0, 0, 0);
+    font-size: 170%;
+    text-align: center;
+}
+
+header ul li a {
+    text-decoration: none;
+}
+
+/**************************************************/
+
+/* INDEX  *****************************************/
+
+
+.rangee {
+    
+    margin-top: 2%;
+    display: flex;
+/*    justify-content: center;    */
+    border: solid 3px rgb(51, 238, 67);
+    margin: 0%;
+}
+
+.section {
+/*  border: solid 2px rgb(255, 0, 0);  */
+display: flex;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+align-items: center;
+}
+
+.section img {
+    width: 84%;
+    border: solid 3px rgb(0, 0, 0);
+    margin: 1%;
+    box-shadow: 0.48rem 0.48rem 0 rgb(0, 0, 0); 
+ /*  border-radius: 0%; */
+ /*  box-shadow: 10px 10px 5px rgb(65, 65, 65);  */
+
+}
+
+/*************************************************/
+
+/** ANIMES****************************************/
+
+.lettre {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.lettre div {
+border: solid 3px rgb(243, 103, 208);
+display: flex;
+flex-direction: row;
+margin-bottom: 2%;
+}
+
+.listeAnimes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.listeAnimes article {
+    padding-right: 1.5em;
+padding-left: 1.5em;
+    
+}  
+
+.pics {
+height: 10em;
+margin-bottom: 8%;
+/*  border: solid 3px black; */
+}
+
+/*************************************************/
+
+/** HALL OF FAME**********************************/
+/*************************************************/
+
+/** CONSEILS *************************************/
+/*************************************************/
+
+
+/* MEDI@ QUERIES *********************************/
+
+@media screen and (min-width: 1150px) {
+.burger {
+    display: none;
+}
+}
+
+
+@media screen and (max-width: 1150px) {
+
+.rangee {
+    flex-wrap: wrap;
+}
+
+header .menu {
+    display: none;
+}
+
+/* menu burger */
+
+  /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+  /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+  /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+  
+
+  /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+  /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+  /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+    
+    }
+
+
+
+
+
+/*************************************************/
+
+
+
+
+
+
+
+
+
+/* POLICE POLICE POLICE POLICE POLICE POLICE POLICE POLICE*/
+/* Polices: -------------------------------------------- */
+.pol-lovetat {
+    font-family: "Love Light";
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pol-matesie {
+      font-family: "Matemasie", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+  
+    .pol-josefin {
+      font-family: "Josefin Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+    }
+  
+  /* Polices  -----------------------------------------FIN */
+  /* POLICE POLICE POLICE POLICE POLICE POLICE POLICE POLICE*/
