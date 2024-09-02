@@ -99,7 +99,7 @@ align-items: center;
 
 .section img {
     width: 84%;
-    border: solid 3px rgb(0, 0, 0);
+    border: solid 3px black;
     margin: 1%;
     box-shadow: 0.48rem 0.48rem 0 rgb(0, 0, 0); 
  /*  border-radius: 0%; */
@@ -114,6 +114,9 @@ align-items: center;
 .lettre {
     display: flex;
     justify-content: space-around;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 1%;
 
 }
 
@@ -125,20 +128,54 @@ margin-bottom: 2%;
 }
 
 .listeAnimes {
+ /*   display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
     display: flex;
     flex-wrap: wrap;
+    
 }
 
+/* article div {
+    display: flex;
+    justify-content: center;
+} */
+
 .listeAnimes article {
-    padding-right: 1.5em;
-padding-left: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
+   /*  overflow: hidden; */
+    max-width: 16em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    border: solid 3px rgb(117, 103, 243);  
+    margin: 1%; 
 }  
 
 .pics {
 height: 10em;
-margin-bottom: 8%;
-  border: solid 3px black; 
+min-height: 0%;
+min-width: 0%;
+margin-bottom: 3%;
+margin-top: 0%;
+border: solid 3px black; 
+}
+
+.sousTitre {
+  /*  display: none;  */
+
+display: flex;
+justify-content: center;
+border: solid 3px rgb(209, 50, 50); 
+}
+
+.alphaB{
+    font-weight: bolder;
+    font-size: 250%;
+
 }
 
 /*************************************************/
