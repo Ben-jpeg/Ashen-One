@@ -24,6 +24,7 @@ h2{
 }
 
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXX ******************************FIN********/
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXX ****************************************/
 
 /* HEADER *****************************************/
 
@@ -31,6 +32,7 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
 
 h1 {
     color: black;
@@ -40,6 +42,7 @@ h1 {
     padding: 0%;
 }
 
+
 header .menu {
     display: flex;
     justify-content: right;
@@ -47,8 +50,8 @@ header .menu {
     margin-top: 5%;
 }
 
+
 header .menu li {
-   /* border: solid 3px orange;  */
     margin: 0%;
     padding: 3px;
     border: 2px solid;
@@ -57,6 +60,7 @@ header .menu li {
     margin-right: 3rem;
     box-shadow: 0.30rem 0.30rem 0 rgb(0, 0, 0);
 }
+
 
 .burger li {
     margin: 4%;
@@ -70,26 +74,26 @@ header .menu li {
     text-align: center;
 }
 
+
 header ul li a {
     text-decoration: none;
 }
 
-/**************************************************/
-
-/* INDEX  *****************************************/
+/***************************************************************************/
+/**************************************************************************/
+/* INDEX  ****************************************************************/
 
 
 .rangee {
     
     margin-top: 2%;
     display: flex;
-/*    justify-content: center;    */
     border: solid 3px rgb(51, 238, 67);
     margin: 0%;
 }
 
+
 .section {
-/*  border: solid 2px rgb(255, 0, 0);  */
 display: flex;
 justify-content: center;
 flex-direction: column;
@@ -97,62 +101,64 @@ text-align: center;
 align-items: center;
 }
 
+
 .section img {
     width: 84%;
     border: solid 3px black;
     margin: 1%;
     box-shadow: 0.48rem 0.48rem 0 rgb(0, 0, 0); 
  /*  border-radius: 0%; */
- /*  box-shadow: 10px 10px 5px rgb(65, 65, 65);  */
-
 }
 
-/*************************************************/
 
-/** ANIMES****************************************/
+
+
+/****************************************************************************/
+/***************************************************************************/
+/** ANIMES*****************************************************************/
 
 .lettre {
-    display: flex;
+  /*  display: flex;
     justify-content: space-around;
     margin-top: 2%;
     margin-bottom: 2%;
-    margin-left: 1%;
-
+    margin-left: 1%; */
+    display: grid;
+    grid-template-columns: 10% 80%;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
+
 
 .lettre div {
-border: solid 3px rgb(243, 103, 208);
+/* border: solid 3px rgb(243, 103, 133); 
 display: flex;
 flex-direction: row;
-margin-bottom: 2%;
+margin-bottom: 2%; */
 }
+
 
 .listeAnimes {
- /*   display: flex;
-    flex-wrap: wrap;
-    justify-content: center; */
-    display: flex;
-    flex-wrap: wrap;
-    
+
+    display: grid;  
+     /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  */
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); 
+    justify-items: center;
+    grid-gap: 0px;
+    border: solid 2px yellow; 
 }
 
-/* article div {
-    display: flex;
-    justify-content: center;
-} */
+
 
 .listeAnimes article {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    
-   /*  overflow: hidden; */
-    max-width: 16em;
+    max-width: 12em;
     padding-right: 0.5em;
     padding-left: 0.5em;
     border: solid 3px rgb(117, 103, 243);  
-    margin: 1%; 
+    margin: 6%; 
 }  
 
 .pics {
@@ -160,34 +166,42 @@ height: 10em;
 min-height: 0%;
 min-width: 0%;
 margin-bottom: 3%;
-margin-top: 0%;
 border: solid 3px black; 
+box-shadow: 0.60rem 0.60rem 0 rgb(0, 0, 0);
 }
 
 .sousTitre {
   /*  display: none;  */
-
 display: flex;
 justify-content: center;
 border: solid 3px rgb(209, 50, 50); 
+text-align: center;
 }
 
 .alphaB{
     font-weight: bolder;
     font-size: 250%;
+    text-align: center;
+    margin-top: 60%;
 
 }
 
-/*************************************************/
-
-/** HALL OF FAME**********************************/
-/*************************************************/
-
-/** CONSEILS *************************************/
-/*************************************************/
+/***************************************************************************/
+/**************************************************************************/
+/** HALL OF FAME**********************************************************/
 
 
-/* MEDI@ QUERIES *********************************/
+
+
+/***************************************************************************/
+/**************************************************************************/
+/** CONSEILS *************************************************************/
+
+
+
+/****************************************************************************/
+/***************************************************************************/
+/* MEDI@ QUERIES **********************************************************/
 
 @media screen and (min-width: 1150px) {
 .burger {
@@ -205,25 +219,7 @@ border: solid 3px rgb(209, 50, 50);
 header .menu {
     display: none;
 }
-
-/* menu burger */
-
-  /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
-  /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
-  /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
-
-  
-
-  /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
-  /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
-  /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
-
-    
     }
-
-
-
-
 
 /*************************************************/
 
@@ -235,7 +231,7 @@ header .menu {
 
 
 
-/* POLICE POLICE POLICE POLICE POLICE POLICE POLICE POLICE*/
+/* POLICE POLICE POLICE POLICE POLICE POLICE POLICE POLICE POLICE POLICE POLICE*/
 /* Polices: -------------------------------------------- */
 .pol-lovetat {
     font-family: "Love Light";
@@ -257,4 +253,4 @@ header .menu {
     }
   
   /* Polices  -----------------------------------------FIN */
-  /* POLICE POLICE POLICE POLICE POLICE POLICE POLICE POLICE*/
+  /* POLICE POLICE POLICE POLICE POLICE POLICE POLICE POLICE POLICE POLICE POLICE*/
