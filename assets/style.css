@@ -14,10 +14,20 @@ ul li {
     list-style-type: none;
 }
 
+
+h1 {
+    color: black;
+    font-size: 270%;
+    margin-left: 2%;
+    margin-top: 1%;
+    padding: 0%;
+}
+
+
 h2{
     color: black;
     text-align: center;
-    font-size: 220%;
+    font-size: 225%;
     border: solid 4px pink;
     padding: 0%;
     margin: 0%;
@@ -49,15 +59,7 @@ h2{
 header {
     display: flex;
     justify-content: space-between;
-}
-
-
-h1 {
-    color: black;
-    font-size: 265%;
-    margin-left: 2%;
-    margin-top: 1%;
-    padding: 0%;
+    margin-bottom: 3%;
 }
 
 
@@ -210,8 +212,8 @@ margin-bottom: 3%;
 border: solid 3px black; 
 box-shadow: 0.60rem 0.60rem 0 rgb(0, 0, 0);
 transition:
-box-shadow 0.3s,
-transform 0.3s;
+  box-shadow 0.3s,
+  transform 0.3s;
 }
 
 .sousTitre {
@@ -234,7 +236,48 @@ text-align: center;
 /**************************************************************************/
 /** HALL OF FAME**********************************************************/
 
+h3 {
+  font-size: 180%;
+  font-weight: bold;
+  padding: 0%;
+  margin: 0%;
 
+}
+
+.genres {
+    margin-top: 4%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+   /* justify-items: center; */
+    grid-gap: 1px;
+    border: solid 3px orange;
+}
+
+.genres article{
+    border: solid 2px blue;
+    margin: 2%;
+}
+
+.genre {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+
+.imgGenre {
+    padding: 0%;
+    margin-bottom: 4%;
+    height: 26em;
+    width: 18rem;
+    border: solid 3px black; 
+    box-shadow: 0.60rem 0.60rem 0 rgb(0, 0, 0);
+    transition:
+      height 0.3s,
+      width 0.3s,
+      box-shadow 0.6s,
+      transform 0.3s;
+}
 
 
 /***************************************************************************/
@@ -247,13 +290,22 @@ text-align: center;
 /***************************************************************************/
 /* MEDI@ QUERIES **********************************************************/
 
+
+/*   GRAND ECRAN  ---- */
 @media screen and (min-width: 1150px) {
 .burger {
-    display: none;
+    display: none;  
+}
+
+.imgGenre:hover {
+    height: 30em;
+    width: 22rem; 
+    border: solid 3px black; 
+    box-shadow: 0.60rem 0.60rem 0 rgb(255, 255, 255);
 }
 }
 
-
+/*   PETIT ECRAN  ---- */
 @media screen and (max-width: 1150px) {
 
 .rangee {
@@ -270,12 +322,19 @@ header .menu {
     border-radius: 50%;
  
     }
-    
+
+.imgGenre   {
+    height: 16em;
+    width: 12rem;
+}
+
+.imgGenre:hover {
+    height: 18em;
+    width: 14rem;
+}
 
 
     }
-
-
 
 
 /****************************************************************************/
