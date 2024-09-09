@@ -99,142 +99,10 @@ header ul li a {
     text-decoration: none;
 }
 
-/***************************************************************************/
-/**************************************************************************/
-/* INDEX  ****************************************************************/
-
-
-.rangee {
-    
-    margin-top: 2%;
-    display: flex;
-    border: solid 3px rgb(51, 238, 67);
-    margin: 0%;
-}
-
-
-.section {
-display: flex;
-justify-content: center;
-flex-direction: column;
-text-align: center;
-align-items: center;
-}
-
-
-.section img {
-    width: 84%;
-    border: solid 3px black;
-    margin: 1%;
-    box-shadow: 0.48rem 0.48rem 0 rgb(0, 0, 0); 
- /*  border-radius: 0%; */
-}
-
-
-
-
-/****************************************************************************/
-/***************************************************************************/
-/** ANIMES*****************************************************************/
-
-.btn-primary {
-    margin-right: 2%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    background-color: black;
-    box-shadow: 0.30rem 0.30rem 0 rgb(65, 65, 65);
-}
-
-.listeLettre {
-    margin-top: 3%;
-    margin-bottom: 3%;
-    margin-left: 0.5%;
-    margin-right: 3%;
-    display: flex;
-    justify-content: space-around;
-    font-size: 92%;
-   
-}
-
-.listeLettre li a{
-    color: rgb(68, 68, 68);
-}
-
-.lettre {
-  /*  display: flex;
-    justify-content: space-around;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 1%; */
-    display: grid;
-    grid-template-columns: 10% 80%;
-    margin-top: 4%;
-    margin-bottom: 4%;
-}
-
-
-.lettre div {
-/* border: solid 3px rgb(243, 103, 133); 
-display: flex;
-flex-direction: row;
-margin-bottom: 2%; */
-}
-
-
-.listeAnimes {
-
-    display: grid;  
-     /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  */
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); 
-    justify-items: center;
-    grid-gap: 0px;
-    border: solid 2px yellow; 
-}
-
-
-
-.listeAnimes article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 12em;
-    padding-right: 0.5em;
-    padding-left: 0.5em;
-    border: solid 3px rgb(117, 103, 243);  
-    margin: 6%; 
-}  
-
-.pics {
-height: 10em;
-min-height: 0%;
-min-width: 0%;
-margin-bottom: 3%;
-border: solid 3px black; 
-box-shadow: 0.60rem 0.60rem 0 rgb(0, 0, 0);
-transition:
-  box-shadow 0.3s,
-  transform 0.3s;
-}
-
-.sousTitre {
-  /*  display: none;  */
-display: flex;
-justify-content: center;
-border: solid 3px rgb(209, 50, 50); 
-text-align: center;
-}
-
-.alphaB{
-    font-weight: bolder;
-    font-size: 250%;
-    text-align: center;
-    margin-top: 60%;
-
-}
 
 /***************************************************************************/
-/**************************************************************************/
-/** HALL OF FAME**********************************************************/
+/***************************************************************************/
+/** Aventures / Bouken *****************************************************/
 
 h3 {
   font-size: 180%;
@@ -243,8 +111,8 @@ h3 {
   margin: 0%;
 }
 
-.genres {
-    margin-top: 4%;
+.lesPepites {
+    margin-top: 1%;
   /*  display: grid;
     grid-template-columns:1fr 1fr 1fr; 
     grid-gap: 10px; */
@@ -259,25 +127,38 @@ h3 {
     margin: 2%;
 }
 
-.genre {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
+.laPepite {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pepiteImg {
+    margin: 1%;
+}
+
+.pepiteTxt {
+    margin: 1%;
 }
 
 
-.imgGenre {
-    padding: 0%;
-    margin-bottom: 4%;
-    height: 378px;
-    width: 280px;
-    border: solid 3px black; 
-    box-shadow: 0.60rem 0.60rem 0 rgb(0, 0, 0);
+
+.laPepite div {
+    /* border: solid 1px green; */
+}
+
+
+.imgCarousel {
+    /* padding: 0%; */
+    /* margin-bottom: 4%; */
+    height: 80vh;
+    width: 25vw;
+   /* border: solid 3px black; 
+     box-shadow: 0.60rem 0.60rem 0 rgb(0, 0, 0);
     transition:
       height 0.3s,
       width 0.3s,
       box-shadow 0.6s,
-      transform 0.3s;
+      transform 0.3s; */
 }
 
 
@@ -297,12 +178,12 @@ h3 {
     display: none;  
 }
 
-.imgGenre:hover {
+/* .imgGenre:hover {
     height: 27em;
     width: 20rem; 
     border: solid 3px black; 
     box-shadow: 0.60rem 0.60rem 0 rgb(255, 255, 255);
-}
+} */
 }
 
 /*   PETIT ECRAN  ---- */
@@ -332,10 +213,10 @@ h3 {
     font-size: 110%;
   }
 
-.imgGenre:hover {
+/* .imgGenre:hover {
     height: 330px;
     width: 255px;
-}
+} */
 
 
     }
