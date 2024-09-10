@@ -70,6 +70,14 @@ header .menu {
     margin-top: 5%;
 }
 
+.btn-primary {
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: black;
+    box-shadow: 0.30rem 0.30rem 0 rgb(65, 65, 65);
+}
+
 
 header .menu li {
     margin: 0%;
@@ -123,7 +131,7 @@ h3 {
 }
 
 .genres article{
-    border: solid 2px blue;
+    border: solid 2px rgb(8, 212, 161);
     margin: 2%;
 }
 
@@ -150,8 +158,8 @@ h3 {
 .imgCarousel {
     /* padding: 0%; */
     /* margin-bottom: 4%; */
-    height: 80vh;
-    width: 25vw;
+    height: 70vh;
+    width: 23vw;
    /* border: solid 3px black; 
      box-shadow: 0.60rem 0.60rem 0 rgb(0, 0, 0);
     transition:
@@ -159,6 +167,30 @@ h3 {
       width 0.3s,
       box-shadow 0.6s,
       transform 0.3s; */
+}
+
+/* Spécificités Carousel (classes déjà existantes) ---*/
+.carousel-control-prev , .carousel-control-next {
+    border: solid 0px;
+    background-color: rgba(255, 255, 255, 0)
+}
+
+.carousel-control-prev:hover {
+    background: linear-gradient(90deg, rgba(165, 74, 230, 0.342) 0%, rgba(165, 74, 230, 0.397) 0%, rgba(95, 176, 165, 0.055) 42%, rgba(19, 71, 148, 0) 100%);
+}
+
+.carousel-control-next:hover {
+  background:  linear-gradient(90deg, rgba(165, 74, 230, 0) 0%, rgba(19, 71, 148, 0) 0%, rgba(95, 176, 165, 0.39) 42%, rgba(165, 74, 230, 0.315) 100%);
+}
+
+.carousel-control-prev-icon , .carousel-control-next-icon {
+   border-radius: 50%;
+   border: solid 3px rgb(34, 23, 192);
+   background-color: black;
+}
+
+.carousel-control-prev-icon:hover , .carousel-control-next-icon:hover {
+ background-color: aqua;
 }
 
 
@@ -184,6 +216,15 @@ h3 {
     border: solid 3px black; 
     box-shadow: 0.60rem 0.60rem 0 rgb(255, 255, 255);
 } */
+
+.lilScreen {
+    display: none;
+}
+
+.bigScreen {
+    box-shadow: 0.45rem 0.38rem 0 rgb(0, 0, 0);
+}
+
 }
 
 /*   PETIT ECRAN  ---- */
@@ -209,6 +250,11 @@ header .menu {
     width: 170px;
 } 
 
+.imgCarousel {
+    height: 50vh;
+    width: 23vw;
+}
+
 h3 {
     font-size: 110%;
   }
@@ -218,6 +264,14 @@ h3 {
     width: 255px;
 } */
 
+.lilScreen {
+    display: block;
+    box-shadow: 0.30rem 0.30rem 0 rgb(0, 0, 0);
+}
+
+.bigScreen {
+    display: none;
+}
 
     }
 

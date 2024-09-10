@@ -81,6 +81,13 @@ header .menu li {
     box-shadow: 0.30rem 0.30rem 0 rgb(0, 0, 0);
 }
 
+.btn-primary {
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: black;
+    box-shadow: 0.30rem 0.30rem 0 rgb(65, 65, 65);
+}
 
 .burger li {
     margin: 4%;
@@ -136,14 +143,6 @@ align-items: center;
 /****************************************************************************/
 /***************************************************************************/
 /** ANIMES*****************************************************************/
-
-.btn-primary {
-    margin-right: 2%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    background-color: black;
-    box-shadow: 0.30rem 0.30rem 0 rgb(65, 65, 65);
-}
 
 .listeLettre {
     margin-top: 3%;
