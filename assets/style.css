@@ -63,7 +63,7 @@ header {
 }
 
 
-header .menu {
+.menu {
     display: flex;
     justify-content: right;
     font-size: 92%;
@@ -71,7 +71,7 @@ header .menu {
 }
 
 
-header .menu li {
+.menu li {
     margin: 0%;
     padding: 3px;
     border: 2px solid;
@@ -79,6 +79,10 @@ header .menu li {
     max-height: 1.3rem;
     margin-right: 3rem;
     box-shadow: 0.30rem 0.30rem 0 rgb(0, 0, 0);
+}
+
+.menu li a{
+    color: black;
 }
 
 .btn-primary {
@@ -349,6 +353,10 @@ h3 {
     box-shadow: 0.60rem 0.60rem 0 rgb(131, 0, 163) ;
 } 
 
+.menu li:hover {
+    
+    box-shadow: 0.30rem 0.30rem 0 rgb(154, 18, 218);
+}
 
 
 
