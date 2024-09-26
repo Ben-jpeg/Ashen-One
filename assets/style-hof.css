@@ -34,15 +34,16 @@ h2{
 }
 
 h3 {
-    font-size: 180%;
+    font-size: 220%;
     font-weight: bold;
     padding: 0%;
     margin: 0%;
   }
 
 h4 {
-    margin: 3%;
-    font-size: 180%;
+    margin: 1%;
+    font-size: 124%;
+    text-align: center;
 }
 
 .arrow{
@@ -179,6 +180,9 @@ header ul li a {
 
 .pepiteTxt {
     margin: 1%;
+ display: flex;
+ justify-content: center;
+    align-items: center;
 }
 
 
@@ -221,10 +225,15 @@ header ul li a {
   background:  linear-gradient(90deg, rgba(165, 74, 230, 0) 0%, rgba(19, 71, 148, 0) 0%, rgba(95, 176, 165, 0.39) 42%, rgba(165, 74, 230, 0.315) 100%);
 }
 
-.carousel-control-prev-icon , .carousel-control-next-icon {
+.pepiteImg .carousel-control-prev-icon , .pepiteImg .carousel-control-next-icon {
    border-radius: 50%;
-   border: solid 3px rgb(34, 23, 192);
-   background-color: black;
+   border: solid 2px rgb(0, 0, 0);
+   background-color: rgb(147, 15, 255);
+}
+
+.pepiteTxt .carousel-control-prev-icon, .pepiteTxt .carousel-control-next-icon{
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.089);
 }
 
 .carousel-control-prev-icon:hover , .carousel-control-next-icon:hover {
@@ -298,8 +307,13 @@ header .menu {
 }
 
 h3 {
-    font-size: 110%;
+    font-size: 190%;
+    text-align: center;
   }
+
+  h4 {
+    font-size: 120%;
+}
 
 /* .imgGenre:hover {
     height: 330px;
