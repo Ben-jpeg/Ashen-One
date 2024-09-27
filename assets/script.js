@@ -27,5 +27,16 @@ myModal.addEventListener('shown.bs.modal', () => {
 });
 /* FIN MODALE --------------------------------------------------------------*/
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* Dark Mode     * --------------------------------------------------------*/
+
+// function darkMode() {
+//   const element = document.querySelector("h1, body");
+//   element.classList.toggle("dark-mode");
+// }
+
+function darkMode() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
 
 

@@ -10,13 +10,17 @@ body {
     padding: 0;
 }
 
+.dark-mode {
+    background-color: rgb(40, 6, 161);
+    color: white;
+  }
+
 ul li {
     list-style-type: none;
 }
 
 
 h1 {
-    color: black;
     font-size: 270%;
     margin-left: 2%;
     margin-top: 1%;
@@ -25,7 +29,6 @@ h1 {
 
 
 h2{
-    color: black;
     text-align: center;
     font-size: 225%;
     border: solid 4px pink;
@@ -78,11 +81,13 @@ header {
     max-width: 10rem;
     max-height: 1.5rem;
     margin-right: 3rem;
-    box-shadow: 0.30rem 0.30rem 0 rgb(0, 0, 0);
+    box-shadow: 0.30rem 0.30rem 0;
 }
 
 .menu li a{
-    color: black;
+     color: currentColor;
+     text-decoration: none;
+    
 }
 
 .btn-primary {
@@ -137,7 +142,7 @@ align-items: center;
     width: 84%;
     border: solid 3px black;
     margin: 1%;
-    box-shadow: 0.48rem 0.48rem 0 rgb(0, 0, 0); 
+    box-shadow: 0.48rem 0.48rem 0; 
  /*  border-radius: 0%; */
 }
 
@@ -213,7 +218,7 @@ min-height: 0%;
 min-width: 0%;
 margin-bottom: 3%;
 border: solid 3px black; 
-box-shadow: 0.60rem 0.60rem 0 rgb(0, 0, 0);
+box-shadow: 0.60rem 0.60rem 0;
 transition:
   box-shadow 0.3s,
   transform 0.3s;
@@ -275,7 +280,7 @@ h3 {
     height: 378px;
     width: 280px;
     border: solid 3px black; 
-    box-shadow: 0.60rem 0.60rem 0 rgb(0, 0, 0);
+    box-shadow: 0.60rem 0.60rem 0 currentColor;
     transition:
       height 0.3s,
       width 0.3s,
