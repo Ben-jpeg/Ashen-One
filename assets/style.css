@@ -11,9 +11,24 @@ body {
 }
 
 .dark-mode {
-    background-color: rgb(40, 6, 161);
+    /* background-color: rgb(17, 4, 63); */
+    background: rgb(20,99,162);
+background: linear-gradient(0deg, rgba(20,99,162,1) 0%, rgba(31,10,116,1) 31%, rgba(80,15,129,1) 72%, rgba(20,99,162,1) 100%);
     color: white;
   }
+
+.darkModeBtn {
+    font-size: 23px;
+    border-radius: 70%;
+    cursor: pointer;
+    margin: 0%;
+    padding: 0%;
+    text-align: right;
+    max-width: 1%;
+    position: fixed;
+    top: 50%;
+    right: 20px;
+}  
 
 ul li {
     list-style-type: none;
@@ -36,11 +51,7 @@ h2{
     margin: 0%;
 }
 
-.arrow{
-    height: 3em;
-   /* background-color: rgb(134, 0, 187);
-    border-radius: 50%; */
-}
+
 
 .up {
     display: flex;
@@ -48,10 +59,15 @@ h2{
     align-items: center;
     position: fixed;
     right: 20px;
-    bottom: 20px;
+    bottom: 15px;
     cursor: pointer;
+    border-radius: 50%;
+    /* background-color: white; */
 }
 
+.up p {
+    font-size: 30px;
+}
 
 
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXX ******************************FIN********/
@@ -143,7 +159,6 @@ align-items: center;
     border: solid 3px black;
     margin: 1%;
     box-shadow: 0.48rem 0.48rem 0; 
- /*  border-radius: 0%; */
 }
 
 
@@ -156,24 +171,20 @@ align-items: center;
 .listeLettre {
     margin-top: 3%;
     margin-bottom: 3%;
-    margin-left: 0.5%;
+    margin-left: 0.7%;
     margin-right: 3%;
     display: flex;
     justify-content: space-around;
     font-size: 92%;
-   
 }
 
 .listeLettre li a{
-    color: rgb(68, 68, 68);
+    /* color: rgb(68, 68, 68); */
+    text-decoration: none;
+    color: currentColor;
 }
 
 .lettre {
-  /*  display: flex;
-    justify-content: space-around;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 1%; */
     display: grid;
     grid-template-columns: 10% 80%;
     margin-top: 4%;
@@ -181,16 +192,7 @@ align-items: center;
 }
 
 
-.lettre div {
-/* border: solid 3px rgb(243, 103, 133); 
-display: flex;
-flex-direction: row;
-margin-bottom: 2%; */
-}
-
-
 .listeAnimes {
-
     display: grid;  
      /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  */
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); 
@@ -220,8 +222,8 @@ margin-bottom: 3%;
 border: solid 3px black; 
 box-shadow: 0.60rem 0.60rem 0;
 transition:
-  box-shadow 0.3s,
-  transform 0.3s;
+  box-shadow 0.2s,
+  transform 0.2s;
 }
 
 .sousTitre {
@@ -252,10 +254,7 @@ h3 {
 }
 
 .genres {
-    margin-top: 4%;
-  /*  display: grid;
-    grid-template-columns:1fr 1fr 1fr; 
-    grid-gap: 10px; */
+    margin-top: 3%;
     border: solid 3px orange;
      display: flex;
     flex-wrap: wrap;
@@ -263,7 +262,7 @@ h3 {
 }
 
 .genres article{
-    border: solid 2px blue;
+    border: solid 2px rgb(238, 255, 0);
     margin: 2%;
 }
 
@@ -280,12 +279,12 @@ h3 {
     height: 378px;
     width: 280px;
     border: solid 3px black; 
-    box-shadow: 0.60rem 0.60rem 0 currentColor;
+    box-shadow: 0.60rem 0.60rem 0 rgb(251, 255, 10);
     transition:
-      height 0.3s,
-      width 0.3s,
-      box-shadow 0.6s,
-      transform 0.3s;
+      height 0.2s,
+      width 0.2s,
+      box-shadow 0.3s,
+      transform 0.2s;
 }
 
 
@@ -299,7 +298,7 @@ h3 {
 /***************************************************************************/
 /* MEDI@ QUERIES **********************************************************/
 
-/*   GRAND ECRAN  ---- */
+/*   GRAND ECRAN  --------------------- */
 @media screen and (min-width: 1150px) {
 .burger {
     display: none;  
@@ -313,7 +312,7 @@ h3 {
 }
 }
 
-/*   PETIT ECRAN  ---- */
+/*   PETIT ECRAN  ---------------------- */
 @media screen and (max-width: 1150px) {
 
 .rangee {
@@ -324,12 +323,43 @@ header .menu {
     display: none;
 }
 
+.lettre {
+    margin-top: 22%;
+}
+
+.listeLettre li {
+  
+    margin-top: 4%;
+    margin-left: 0.2%;
+    margin-right: 0.6%;
+    font-size: 70%;
+}
+
+.listeAnimes article {  
+    margin: 1%; 
+}  
+
 .pics {
     height: 7em;
     min-height: 0%;
     border-radius: 50%;
- 
+    margin-bottom: 2%;
     }
+
+ .sousTitre {
+    font-size: 89%;
+ }   
+
+.listeAnimes {
+        /* display: flex;  
+        flex-wrap: wrap;
+        justify-content: center; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        border: solid 2px yellow; 
+}
+
 
 .imgGenre   {
     height: 265px;
@@ -338,7 +368,7 @@ header .menu {
 
 h3 {
     font-size: 110%;
-  }
+}
 
 .imgGenre:hover {
     height: 330px;
