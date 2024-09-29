@@ -207,6 +207,12 @@ a{
     grid-template-columns: 1fr 1fr;
 }
 
+.pepiteOther {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .pepiteImg {
     margin: 1%;
 }
