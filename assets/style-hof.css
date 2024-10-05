@@ -201,14 +201,14 @@ a{
 }
 
 .pepiteTxt .carousel .carousel-inner .carousel-item p {
-    font-size: 19px;
+    font-size: 14px;
     
 
 }
 
 .txtOthers {
     margin: 4%;
-    font-size: 27px;
+    font-size: 18px;
     border: solid 6px currentColor;
 }
 
@@ -256,8 +256,23 @@ a{
 }
 
 .carouselOthers {
-    height: 74vh;
-    width: 75vw;
+
+    width: 57.7vw;
+    max-width: 57.7vw;
+    min-width: 57.7vw; 
+    height: 80vh;
+    max-height: 80vh;
+    min-height: 80vh;
+}
+
+
+.carouselOthersE {
+    width: 60vw;
+    max-width: 60vw;
+    min-width: 60vw; 
+    height: 80vh;
+    max-height: 80vh;
+    min-height: 80vh;
 }
 
 /* Spécificités Carousel (classes déjà existantes) ---*/
@@ -291,10 +306,6 @@ a{
 
 .carousel-control-prev-icon:hover , .carousel-control-next-icon:hover {
  background-color: aqua;
-}
-
-.carousel-item p {
-    font-size: 20px;
 }
 
 
