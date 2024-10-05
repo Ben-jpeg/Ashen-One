@@ -34,6 +34,20 @@ ul li {
     list-style-type: none;
 }
 
+.hr1 {
+    padding: 0%;
+    margin-bottom: 0.4% auto;
+    text-align: center;
+    width: 87%; 
+}
+
+.hr2 {
+    padding: 0%;
+    margin-top: 0.4% auto;
+    text-align: center;
+    width: 40%; 
+}
+
 
 h1 {
     font-size: 270%;
@@ -46,7 +60,6 @@ h1 {
 h2{
     text-align: center;
     font-size: 225%;
-    border: solid 4px pink;
     padding: 0%;
     margin: 0%;
 }
@@ -74,7 +87,6 @@ h4 {
     bottom: 15px;
     cursor: pointer;
     border-radius: 50%;
-    /* background-color: white; */
 }
 
 .up p {
@@ -158,16 +170,11 @@ a{
 
 .back {
     font-size: 35px;
-    border: solid 1px orange;
     padding: 1px;
     margin: 0%;
     text-align: center;
     max-height: 1.4rem;
     max-width: 1em;
-/*    margin-left: 95%;
-    margin-top: 0.5%;
-    border: 2px solid;
-    box-shadow: 0.10rem 0.10rem 0 rgb(0, 0, 0);  */
     position: fixed;
     right: 6px;
     top: 20px;
@@ -176,29 +183,40 @@ a{
 }
 
 
-
-
 /***************************************************************************/
 /***************************************************************************/
-/** Aventures / Bouken *****************************************************/
+/** Touts les genres:  *****************************************************/
 
 .lesPepites {
     margin-top: 1%;
-  /*  display: grid;
-    grid-template-columns:1fr 1fr 1fr; 
-    grid-gap: 10px; */
-    border: solid 3px orange;
-     display: flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.pepiteTxt p {
-    font-size: 26px;
+.pepiteTxt .carousel .carousel-inner .carousel-item {
+    min-height: 250px;
+    min-width: 500px;
+    align-content: center;
+}
+
+.pepiteTxt .carousel .carousel-inner .carousel-item p {
+    font-size: 19px;
+    
+
+}
+
+.txtOthers {
+    margin: 4%;
+    font-size: 27px;
+    border: solid 6px currentColor;
+}
+
+.txtOthers b {
+    color: blueviolet;
 }
 
 .genres article{
-    border: solid 2px rgb(8, 212, 161);
     margin: 2%;
 }
 
@@ -218,32 +236,28 @@ a{
 }
 
 .pepiteTxt {
-    margin: 1%;
+ margin: 1%;
  display: flex;
  justify-content: center;
-    align-items: center;
+ align-items: center;
 }
 
 
 
 .laPepite div {
-     border: solid 1px rgb(250, 217, 33); 
+     /* border: solid 1px rgb(250, 217, 33);  */
 }
 
 
 .imgCarousel {
-    /* padding: 0%; */
-    /* margin-bottom: 4%; */
     height: 70vh;
     width: 23vw;
-   border: solid 3px rgb(236, 16, 16)
-   
-    /*box-shadow: 0.60rem 0.60rem 0 rgb(0, 0, 0);
-    transition:
-      height 0.3s,
-      width 0.3s,
-      box-shadow 0.6s,
-      transform 0.3s; */
+    padding: 0%;
+}
+
+.carouselOthers {
+    height: 74vh;
+    width: 75vw;
 }
 
 /* Spécificités Carousel (classes déjà existantes) ---*/
@@ -266,7 +280,7 @@ a{
 
 .pepiteImg .carousel-control-prev-icon , .pepiteImg .carousel-control-next-icon {
    border-radius: 50%;
-   border: solid 2px rgb(0, 0, 0);
+   border: solid 0px;
    background-color: rgb(147, 15, 255);
 }
 
@@ -312,7 +326,9 @@ a{
 }
 
 .bigScreen {
-    box-shadow: 0.45rem 0.38rem 0;
+    border: solid 1px;
+    box-shadow: 0.65rem 0.59rem 0;
+
 }
 
 }
@@ -392,6 +408,9 @@ h3 {
 /***************************************************************************/
 /* HOVERS *****************************************************************/
 
+.darkModeBtn:hover {
+    color: yellow;
+}  
 
 .pics:hover {
     box-shadow: 0.60rem 0.60rem 0 rgb(131, 0, 163) ;
@@ -401,13 +420,18 @@ h3 {
     box-shadow: 0.30rem 0.30rem 0 rgb(154, 18, 218);
 }
 
-.back a:hover{
+.back:hover{
     color: rgb(145, 23, 226);
 }
 
 .arrow:hover {
     background-color: rgb(134, 0, 187);
     border-radius: 50%; 
+}
+
+.up:hover {
+    color: rgb(145, 23, 226);
+   
 }
 
 
