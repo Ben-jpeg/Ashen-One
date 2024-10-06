@@ -1,3 +1,4 @@
+/* __________________________________________________________________________/
 /* Balises principales / générales *****************************************/
 
 html {
@@ -11,11 +12,10 @@ body {
 }
 
 .dark-mode {
-    /* background-color: rgb(17, 4, 63); */
     background: rgb(20,99,162);
-background: linear-gradient(0deg, rgba(20,99,162,1) 0%, rgba(31,10,116,1) 31%, rgba(80,15,129,1) 72%, rgba(20,99,162,1) 100%);
+    background: linear-gradient(0deg, rgba(20,99,162,1) 0%, rgba(31,10,116,1) 31%, rgba(80,15,129,1) 72%, rgba(20,99,162,1) 100%);
     color: white;
-  }
+}
 
 .darkModeBtn {
     font-size: 23px;
@@ -59,11 +59,10 @@ h1 {
 
 h2{
     text-align: center;
-    font-size: 225%;
+    font-size: 200%;
     padding: 0%;
     margin: 0%;
 }
-
 
 
 .up {
@@ -75,7 +74,6 @@ h2{
     bottom: 15px;
     cursor: pointer;
     border-radius: 50%;
-    /* background-color: white; */
 }
 
 .up p {
@@ -91,16 +89,16 @@ h2{
 header {
     display: flex;
     justify-content: space-between;
-    /* margin-bottom: 3%; */
 }
 
 
 .menu {
     display: flex;
     justify-content: right;
-    font-size: 92%;
+    font-size: 83%;
     margin-top: 5%;
 }
+
 
 
 .menu li {
@@ -148,9 +146,7 @@ header ul li a {
 /**************************************************************************/
 /* INDEX  ****************************************************************/
 
-
 .rangee {
-    
     margin-top: 2%;
     display: flex;
     margin: 0%;
@@ -170,10 +166,7 @@ align-items: center;
     width: 80%;
     margin: 1%;
     box-shadow: 0.30rem 0.30rem 0 rgb(0, 0, 0);
-
 }
-
-
 
 
 /****************************************************************************/
@@ -191,7 +184,6 @@ align-items: center;
 }
 
 .listeLettre li a{
-    /* color: rgb(68, 68, 68); */
     text-decoration: none;
     color: currentColor;
 }
@@ -238,7 +230,6 @@ transition:
 }
 
 .sousTitre {
-  /*  display: none;  */
 margin-top: 3%;  
 display: flex;
 justify-content: center;
@@ -250,7 +241,6 @@ text-align: center;
     font-size: 250%;
     text-align: center;
     margin-top: 60%;
-
 }
 
 /***************************************************************************/
@@ -290,7 +280,6 @@ h3 {
     margin-bottom: 4%;
     height: 378px;
     width: 280px;
-    /* border: solid 3px black;  */
     box-shadow: 0.60rem 0.60rem 0 rgb(230, 211, 36);
     transition:
       height 0.2s,
@@ -304,13 +293,14 @@ h3 {
 /**************************************************************************/
 /** CONSEILS *************************************************************/
 
+/* .     .     .    empty (a faire plus tard)
 
 
 /****************************************************************************/
 /***************************************************************************/
 /* MEDI@ QUERIES **********************************************************/
 
-/*   GRAND ECRAN  --------------------- */
+/*   GRAND ECRAN  ------------------------ */
 @media screen and (min-width: 1150px) {
 .burger {
     display: none;  
@@ -318,7 +308,7 @@ h3 {
 
 }
 
-/*   PETIT ECRAN  ---------------------- */
+/*   PETIT ECRAN  ------------------------ */
 @media screen and (max-width: 1150px) {
 
 .rangee {
@@ -350,16 +340,13 @@ header .menu {
     min-height: 0%;
     border-radius: 50%;
     margin-bottom: 2%;
-    }
+}
 
  .sousTitre {
     font-size: 89%;
- }   
+}   
 
 .listeAnimes {
-        /* display: flex;  
-        flex-wrap: wrap;
-        justify-content: center; */
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-items: center;
@@ -379,7 +366,7 @@ h3 {
 
 
 
-    }
+}
 
 
 /****************************************************************************/
@@ -391,7 +378,6 @@ h3 {
 }  
 
 
-
 .up:hover {
     color: rgb(145, 23, 226);
    
@@ -399,7 +385,6 @@ h3 {
 
 .pics:hover {
     box-shadow: 0.60rem 0.60rem 0 rgb(154, 18, 180) ;
-    border: rgb(0, 0, 0) solid 3px;
 } 
 
 .menu li:hover {
@@ -410,9 +395,8 @@ h3 {
 .imgGenre:hover { 
     height: 411px;
     width: 300px;
-    box-shadow: 0.60rem 0.60rem 0 rgb(169, 224, 255);
+    box-shadow: 0.60rem 0.60rem 0 rgb(255, 199, 14);
 }
-
 
 
 /* POLICE POLICE POLICE POLICE POLICE POLICE POLICE POLICE POLICE POLICE POLICE*/
