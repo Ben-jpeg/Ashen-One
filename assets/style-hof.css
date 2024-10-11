@@ -16,7 +16,7 @@ body {
     background: linear-gradient(0deg, rgba(20,99,162,1) 0%, rgba(31,10,116,1) 31%, rgba(80,15,129,1) 72%, rgba(20,99,162,1) 100%);
     color: white;
     h3 {
-        background: none;
+        
     }
 }
 
@@ -77,18 +77,26 @@ h2{
 h3 {
     font-size: 198%;
     font-weight: bold;
-    padding: 0%;
+    padding: 6%;
     margin: 0%;
     /* background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(125,38,247,1) 81%, rgba(81, 0, 255, 0) 100%); */
     /* background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.178) 0%, rgb(239, 243, 7) 66%, rgba(110, 60, 228, 0.021) 100%);
     */
-    background: rgb(245, 234, 29);
+    /* background: rgb(245, 234, 29);
     background: linear-gradient(90deg, rgba(255, 243, 16, 0) 0%, rgb(253, 25, 94) 19%, rgba(255, 230, 0, 0) 100%);
     border-top-right-radius: 2%;
-    border-bottom-right-radius: 2%;
+    border-bottom-right-radius: 2%; */
+    color: white;
+    background-image: url("../HoF/paint2.png");
+    background-position: center;
+    background-size: 100%;
+    inline-size: 70%; 
+    text-align: center;
+   
 }
+
 
 h4 {
     margin: 1%;
