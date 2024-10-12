@@ -88,8 +88,9 @@ h2{
 h3 {
     font-size: 198%;
     font-weight: bold;
-    /* border: solid 1px; */
-    /* box-shadow: 0.60rem 0.60rem 0 rgb(243, 239, 5); */
+    /* border-bottom: solid 1px; */
+    /* border-right: solid 1px ; */
+    /* box-shadow: 0.60rem 0.60rem 0 rgb(0, 0, 0);  */
     inline-size: 55%;
     margin-left: 20%;
     text-align: center;
