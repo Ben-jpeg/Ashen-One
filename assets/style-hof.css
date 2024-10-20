@@ -462,26 +462,14 @@ h3 {
     min-height: 80vh;
 }
 
-.carouselOthers2 {
-    height: 53vh;
-    width: 60vw;
-    max-width: 60vw;
-    min-width: 60vw; 
-}
-
-.carouselOthersE2 {
-  
-    width: 60vw;
-    max-width: 60vw;
-    min-width: 60vw; 
-    height: 53vh;
-    max-height: 53vh;
-    min-height: 53vh;
-}
 
 .pepiteImg {
     display: grid;
     justify-items: center;
+}
+
+.darkModeBtn, .back, .up{
+color: orange;
 }
 
 }
