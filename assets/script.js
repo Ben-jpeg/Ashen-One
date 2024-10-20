@@ -13,9 +13,15 @@ up.addEventListener('click', () => {
 /* FIN ARRON FIN ARROW FIN ARROW FIN ARROW FIN ARROW FIN ARROW FIN ARROW----*/
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 /* ScrollReveal* -------------------------------------------------------*/
+
 ScrollReveal().reveal('.listeAnimes', { delay: 300 });
 ScrollReveal().reveal('.pics', { delay: 400 });
 ScrollReveal().reveal('.sousTitre', { delay: 400 });
+ScrollReveal().reveal('.laPepite');
+ScrollReveal().reveal('.pepiteOthers');
+ScrollReveal().reveal('.txtOthers');
+
+
 /* ScrollReveal FIN -----------------------------------------------------*/
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 /* Modale du burger* --------------------------------------------------------*/
