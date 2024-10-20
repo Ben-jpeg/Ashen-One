@@ -338,7 +338,7 @@ header .menu {
 .pics {
     height: 7em;
     min-height: 0%;
-    border-radius: 50%;
+    border-radius: 4%;
     margin-bottom: 2%;
 }
 
@@ -394,7 +394,7 @@ h3 {
 .imgGenre:hover { 
     height: 411px;
     width: 300px;
-    box-shadow: 0.60rem 0.60rem 0 rgb(255, 199, 14);
+    box-shadow: 0.60rem 0.60rem 0 rgb(223, 21, 72);
 }
 
 
