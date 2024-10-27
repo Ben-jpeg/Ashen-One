@@ -9,6 +9,8 @@ html {
 body {
     margin: 0;
     padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .dark-mode {
@@ -81,8 +83,9 @@ h2{
 }
 
 
+
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXX ******************************FIN********/
-/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXX ****************************************/
+
 
 /* HEADER *****************************************/
 
@@ -100,7 +103,6 @@ header {
 }
 
 
-
 .menu li {
     margin: 0%;
     padding: 1px;
@@ -114,7 +116,6 @@ header {
 .menu li a{
      color: currentColor;
      text-decoration: none;
-    
 }
 
 .btn-primary {
@@ -142,16 +143,86 @@ header ul li a {
     text-decoration: none;
 }
 
-/***************************************************************************/
+
 /**************************************************************************/
 /* INDEX  ****************************************************************/
 
-.rangee {
-    margin-top: 2%;
-    display: flex;
-    margin: 0%;
+.backgroundImg {
+    background-color: #d5b4f36e;
+ 
 }
 
+.backgroundImg::before{
+     content: "";
+     background-image:url("../img/dreams3.webp");
+      background-size: cover;
+      background-position: center;
+      position: absolute;
+      top: 0%;
+      right: 0%;
+      bottom: 0%;
+      left: 0%;
+      opacity: 0.26;
+}
+
+.stars {
+    color: yellow;
+}
+
+h1{
+    position: relative;
+}
+
+.headerAccueil {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.h1Accueil {
+    font-size: 9rem;
+}
+
+.h3Accueil {
+    font-size: 17px;
+    padding: 80%;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition:
+     background-size 1s,
+}
+
+.h3Accueil a{
+    text-decoration: none;
+}
+
+.h301{
+    background-image: url("../img/bulle3.png");
+}
+
+.h302{
+    background-image: url("../img/bulle2.webp");
+}
+
+.h303{
+    background-image: url("../img/bulle1.png");
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.rangee {
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0%;
+}
 
 .section {
 display: flex;
@@ -159,14 +230,19 @@ justify-content: center;
 flex-direction: column;
 text-align: center;
 align-items: center;
+margin: 0.5%;
+padding: 0%;
+position: relative;
 }
 
 
-.section a img {
-    width: 80%;
-    margin: 1%;
-    box-shadow: 0.30rem 0.30rem 0 rgb(0, 0, 0);
-}
+.bottomright {
+    position: absolute;
+    bottom: 8px;
+    left: 80px;
+    font-size: 25px;
+    color: rgb(231, 233, 154)
+  }
 
 
 /****************************************************************************/
@@ -198,7 +274,6 @@ align-items: center;
 
 .listeAnimes {
     display: grid;  
-     /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  */
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); 
     justify-items: center;
     grid-gap: 0px;
@@ -247,6 +322,10 @@ text-align: center;
 /**************************************************************************/
 /** HALL OF FAME**********************************************************/
 
+.title{
+    text-decoration: none !important;
+}
+
 h3 {
   font-size: 180%;
   font-weight: bold;
@@ -272,7 +351,6 @@ h3 {
     padding: 1%;
 }
 
-
 .imgGenre {
     padding: 0%;
     margin-left: 2%;
@@ -280,7 +358,8 @@ h3 {
     margin-bottom: 4%;
     height: 378px;
     width: 280px;
-    box-shadow: 0.60rem 0.60rem 0 rgb(255, 235, 53);
+    /* box-shadow: 0.60rem 0.60rem 0 rgb(0, 0, 0); */
+    box-shadow:18px 18px 10px 0 rgb(85, 85, 85);
     transition:
       height 0.2s,
       width 0.2s,
@@ -312,8 +391,36 @@ h3 {
 @media screen and (max-width: 1150px) {
 
 .rangee {
+    flex-direction: column;
     flex-wrap: wrap;
 }
+
+.h1Accueil {
+    font-size: 3rem;
+    padding-top: 3%;
+    padding-bottom: 27%;
+}
+
+.h3Accueil{
+    margin: 0%;
+    padding-bottom: 47%;
+    padding-top: 47%;
+    align-items: center;
+}
+
+.backgroundImg::before{
+    content: "";
+    background-image:url("../HoF/shonen/bc4.jpg");
+     background-size: cover;
+     background-position: center;
+     position: absolute;
+     top: 0%;
+     right: 0%;
+     bottom: 0%;
+     left: 0%;
+     opacity: 0.16;
+}
+
 
 header .menu {
     display: none;
@@ -364,7 +471,6 @@ h3 {
 
 
 
-
 }
 
 
@@ -372,29 +478,38 @@ h3 {
 /***************************************************************************/
 /* HOVERS *****************************************************************/
 
+.title:hover{
+   color: blueviolet;
+}
+
 .darkModeBtn:hover {
     color: yellow;
 }  
 
-
 .up:hover {
-    color: rgb(145, 23, 226);
-   
+    color: rgb(145, 23, 226); 
+}
+
+.h3Accueil:hover {
+    background-size: 51%;
+}
+
+.h3Accueil a:hover {
+    color: rgb(174, 29, 241);
 }
 
 .pics:hover {
-    box-shadow: 0.60rem 0.60rem 0 rgb(172, 130, 226) ;
+    box-shadow: 0.60rem 0.60rem 0 rgb(134, 59, 231) ;
 } 
 
 .menu li:hover {
-    
     box-shadow: 0.30rem 0.30rem 0 rgb(154, 18, 218);
 }
 
 .imgGenre:hover { 
     height: 411px;
     width: 300px;
-    box-shadow: 0.60rem 0.60rem 0 rgb(223, 21, 72);
+    box-shadow: 0.60rem 0.60rem 0 rgb(134, 38, 243);
 }
 
 
