@@ -407,9 +407,21 @@ header .menu {
     width: 170px;
 } 
 
-.imgCarousel {
+
+.laPepite {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* .imgCarousel {
     height: 48vh;
     width: 24vw;
+} */
+
+hr {
+    color: orange;
+    background-color: black;
 }
 
 h3 {
@@ -417,6 +429,7 @@ h3 {
     text-align: center;
     box-shadow: none;
     text-align: center;
+    margin-left: 0%;
 }
 
 .h3others {
@@ -425,7 +438,7 @@ h3 {
 
 
   h4 {
-    font-size: 130%;
+   display: none;
 }
 
 .h4others{
