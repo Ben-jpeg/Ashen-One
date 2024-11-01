@@ -410,6 +410,7 @@ h3 {
 .backgroundImg::before{
     content: "";
     background-image:url("../HoF/shonen/bc4.jpg");
+    background-attachment: scroll;
      background-size: cover;
      background-position: center;
      position: absolute;
