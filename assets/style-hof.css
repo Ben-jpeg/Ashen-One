@@ -370,6 +370,10 @@ a{
 
 @media screen and (max-width: 980px) {
 
+h2{
+    font-size: 170%;
+}   
+
 .back {
     position: fixed;
     top: 60px;
@@ -414,22 +418,24 @@ header .menu {
     justify-content: center;
 }
 
-/* .imgCarousel {
-    height: 48vh;
-    width: 24vw;
-} */
 
 hr {
-    color: orange;
-    background-color: black;
+    background-color: grey;
+}
+
+.hr3 {
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
 }
 
 h3 {
-    font-size: 190%;
+    font-size: 140%;
     text-align: center;
     box-shadow: none;
     text-align: center;
     margin-left: 0%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .h3others {
@@ -448,11 +454,20 @@ h3 {
 
 .lilScreen {
     display: block;
-    box-shadow: 0.30rem 0.30rem 0 rgb(0, 0, 0);
+    box-shadow: 0.30rem 0.30rem 0 currentColor;
 }
 
 .bigScreen {
     display: none;
+}
+
+.carouselGenraux {
+    width: 90vw;
+    max-width: 90vw;
+    min-width: 60.7vw; 
+    height: 33vh;
+    max-height: 33vh;
+    min-height: 33vh;
 }
 
 
