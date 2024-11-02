@@ -56,6 +56,9 @@ h1 {
     margin-left: 2%;
     margin-top: 1%;
     padding: 0%;
+    /* background-image: url("../img/tape4");
+    background-position: center;
+    background-size: 60%; */
 }
 
 
@@ -410,9 +413,9 @@ h3 {
 .backgroundImg::before{
     content: "";
     background-image:url("../HoF/shonen/bc4.jpg");
-    background-attachment: scroll;
      background-size: cover;
      background-position: center;
+     background-attachment: scroll;
      position: absolute;
      top: 0%;
      right: 0%;
