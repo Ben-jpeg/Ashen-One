@@ -465,9 +465,9 @@ h3 {
     width: 90vw;
     max-width: 90vw;
     min-width: 60.7vw; 
-    height: 33vh;
+    height: 33px;
     max-height: 33vh;
-    min-height: 33vh;
+    min-height: 2vh;
 }
 
 
