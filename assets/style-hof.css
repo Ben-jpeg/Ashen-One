@@ -231,6 +231,7 @@ a{
 }
 
 
+
 .txtOthers {
     margin: 3%;
     padding: 2%;
@@ -364,11 +365,29 @@ a{
 
 }
 
+.carousel-item img {
+    height: 67vh;
+}
+
 }
 
 /*   PETIT ECRAN  -------------------- */
 
 @media screen and (max-width: 980px) {
+
+
+.bodyOthers::before {
+    content: "";
+     background-image:url("../img/star.png");
+      background-size: cover;
+      background-position: center;
+      position: fixed;
+      top: 0%;
+      right: 0%;
+      bottom: 0%;
+      left: 0%;
+      opacity: 0.33;
+}
 
 h2{
     font-size: 170%;
@@ -448,6 +467,7 @@ h3 {
 }
 
 .h4others{
+    display: block;
     font-size: 90%;
 }
 
@@ -459,6 +479,10 @@ h3 {
 
 .bigScreen {
     display: none;
+}
+
+.carousel-item img {
+    height: 31vh;
 }
 
 .carouselGenraux {
