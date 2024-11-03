@@ -107,14 +107,14 @@ h4 {
     justify-content: center;
     align-items: center;
     position: fixed;
-    right: 8px;
+    right: 6px;
     bottom: 15px;
     cursor: pointer;
     border-radius: 50%;
 }
 
 .up p {
-    font-size: 30px;
+    font-size: 37px;
 }
 
 
@@ -190,14 +190,14 @@ a{
 }
 
 .back {
-    font-size: 35px;
+    font-size: 39px;
     padding: 1px;
     margin: 0%;
     text-align: center;
     max-height: 1.4rem;
     max-width: 1em;
     position: fixed;
-    right: 6px;
+    right: 4px;
     top: 20px;
     cursor: pointer;
     color: currentColor;
@@ -386,7 +386,7 @@ a{
       right: 0%;
       bottom: 0%;
       left: 0%;
-      opacity: 0.34;
+      opacity: 0.30;
 }
 
 h2{
