@@ -17,6 +17,10 @@ body {
     background: rgb(20,99,162);
     background: linear-gradient(0deg, rgba(20,99,162,1) 0%, rgba(31,10,116,1) 31%, rgba(80,15,129,1) 72%, rgba(20,99,162,1) 100%);
     color: white;
+    .modal-content {
+        color: rgba(252, 248, 5, 0.918);
+        background-color: rgba(6, 6, 117, 0.548);
+    }
 }
 
 .darkModeBtn {
@@ -89,7 +93,6 @@ h2{
 
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXX ******************************FIN********/
 
-
 /* HEADER *****************************************/
 
 header {
@@ -129,6 +132,11 @@ header {
     box-shadow: 0.30rem 0.30rem 0 rgb(65, 65, 65);
 }
 
+.modal-content {
+    /* color: rgba(252, 248, 5, 0.918); */
+    background-color: rgba(255, 255, 255, 0.733);
+}
+
 .burger li {
     margin: 4%;
     padding: 3px;
@@ -139,6 +147,11 @@ header {
     box-shadow: 0.30rem 0.30rem 0 rgb(0, 0, 0);
     font-size: 170%;
     text-align: center;
+    text-decoration: none;
+}
+
+.burger li a{
+    text-decoration: none;
 }
 
 
@@ -201,6 +214,7 @@ h1{
 
 .h3Accueil a{
     text-decoration: none;
+    color: black;
 }
 
 .h301{
@@ -535,6 +549,10 @@ h3 {
     height: 411px;
     width: 300px;
     box-shadow: 0.60rem 0.60rem 0 rgb(134, 38, 243);
+}
+
+.burger li a:hover{
+    color: blueviolet;
 }
 
 

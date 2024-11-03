@@ -28,6 +28,10 @@ body {
         inline-size: 70%; 
         -webkit-text-stroke: 1.5px black;
         
+    };
+    .modal-content {
+        color: rgba(252, 248, 5, 0.918);
+        background-color: rgba(6, 6, 117, 0.548);
     }
 }
 
@@ -137,18 +141,23 @@ header {
     margin-top: 5%;
 }
 
+.stars {
+    color: yellow;
+    font-size: 40%;
+}
+
+
 .btn-primary {
     margin-right: 2%;
     margin-top: 2%;
     margin-bottom: 2%;
-    background-color: rgb(113, 14, 179);
+    background-color: black;
     box-shadow: 0.30rem 0.30rem 0 rgb(65, 65, 65);
-    padding-top: 0%;
-    padding-bottom: 0%;
 }
 
-.modal{
-   color: rgb(111, 0, 155);
+.modal-content {
+    /* color: rgba(252, 248, 5, 0.918); */
+    background-color: rgba(255, 255, 255, 0.733);
 }
 
 
@@ -185,8 +194,10 @@ header ul li a {
     text-decoration: none;
 }
 
+
 a{
-    text-decoration: none !important;
+    color: currentColor;
+    text-decoration: none;
 }
 
 .back {
@@ -557,6 +568,9 @@ color: orange;
    
 }
 
+.burger li a:hover{
+    color: blueviolet;
+}
 
 
 /* POLICE POLICE POLICE POLICE POLICE POLICE POLICE POLICE POLICE POLICE POLICE*/
