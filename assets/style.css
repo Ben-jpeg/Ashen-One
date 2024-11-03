@@ -216,14 +216,13 @@ h1{
 }
 
 a{
-    color: black;
+    color: currentColor;
     text-decoration: none;
 }
 
 .rangee {
     padding-top: 1%;
     display: flex;
-    /* justify-content: space-around; */
     align-items: center;
     margin: 0%;
 }
