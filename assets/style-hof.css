@@ -243,17 +243,23 @@ a{
    
 }
 
-
-
 .txtOthers {
-    margin: 3%;
-    padding: 2%;
-    font-size: 18px;
-    border-right: solid 3px currentColor;
-    border-bottom: solid 3px currentColor;
-
+    margin: 5%;
+    padding: 5%;
+    font-size: 15px;
+    border-right: solid 8px currentColor;
+    border-bottom: solid 8px currentColor;
+    border-left: dashed 7px currentColor;
+    border-top: dashed 7px currentColor;
     box-shadow: 0.80rem 0.80rem 0 rgb(252, 255, 59);
     text-align: center;
+}
+
+.txtOthers i{
+    font-size: 17px;
+    color: rgb(20, 209, 93);
+    /* color: rgb(206, 26, 191); */
+    /* color: rgb(253, 175, 6); */
 }
 
 .txtOthers b {
