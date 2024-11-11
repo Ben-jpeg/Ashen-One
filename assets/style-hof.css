@@ -11,11 +11,35 @@ body {
     padding: 0;
 }
 
+.bodyOthers {
+    background-image: url("../img/star2.png");    
+    background-repeat:no-repeat;
+    background-size: 22%; 
+    background-attachment: fixed;
+    background-position: right;
+}
+
+.bodyOthers::before{
+    content: "";
+    background-image:url("../img/starr.png");
+    background-repeat: no-repeat;
+     background-size: 25%;
+     background-attachment: fixed;
+     background-position: right;
+     top: 0%;
+     right: 0%;
+     bottom: 0%;
+     left: 0%;
+     opacity: 0.47;
+     position: fixed;
+}
+
 
 .dark-mode {
-    background: rgb(20,99,162);
+    background-color: rgb(20,99,162);
     background: linear-gradient(0deg, rgba(20,99,162,1) 0%, rgba(31,10,116,1) 31%, rgba(80,15,129,1) 72%, rgba(20,99,162,1) 100%);
     color: white;
+    
     h3 {
         border: none;
          box-shadow: none;
@@ -28,8 +52,8 @@ body {
         background-size: 100%;
         inline-size: 70%; 
         -webkit-text-stroke: 1.5px black;
-        
     };
+
     .modal-content {
         color: rgba(252, 248, 5, 0.918);
         background-color: rgba(6, 6, 117, 0.548);
@@ -251,7 +275,8 @@ a{
     border-bottom: solid 8px currentColor;
     border-left: dashed 7px currentColor;
     border-top: dashed 7px currentColor;
-    box-shadow: 0.80rem 0.80rem 0 rgb(252, 255, 59);
+    box-shadow: 0.80rem 0.80rem 0 rgb(82, 228, 119);
+    /* box-shadow: 0.80rem 0.80rem 0 rgb(210, 39, 253); */
     text-align: center;
 }
 
@@ -361,7 +386,7 @@ a{
 /**************************************************************************/
 /** CONSEILS *************************************************************/
 
-/* .     .     .    empty (a faire plus tard)
+/* X     X     X     X    X    .     .     .    empty (a faire plus tard)
 
 /****************************************************************************/
 /***************************************************************************/
@@ -391,13 +416,12 @@ a{
 }
 
 /*   PETIT ECRAN  -------------------- */
-
 @media screen and (max-width: 980px) {
 
 
 .bodyOthers::after{
     content: "";
-    background-image:url("../img/star.png");
+    background-image:url("../img/star2.png");
      background-size: cover;
      background-position: center;
      background-attachment: fixed;
@@ -407,7 +431,6 @@ a{
      bottom: 0%;
      left: 0%;
      opacity: 0.48;
-    
 }  
 
 h2{
