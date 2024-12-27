@@ -410,7 +410,7 @@ a{
 }
 
 .carousel-item img {
-    height: 67vh;
+    height: 375px;
 }
 
 }
@@ -535,7 +535,7 @@ h3 {
     min-width: 60.7vw; 
     height: 33px;
     max-height: 33vh;
-    min-height: 2vh;
+    min-height: 33vh;
 }
 
 
