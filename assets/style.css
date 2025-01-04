@@ -14,8 +14,8 @@ body {
 }
 
 .dark-mode {
-    background: rgb(20,99,162);
-    background: linear-gradient(0deg, rgba(20,99,162,1) 0%, rgba(31,10,116,1) 31%, rgba(80,15,129,1) 72%, rgba(20,99,162,1) 100%);
+    background-color: rgb(3, 38, 66);
+    background: linear-gradient(0deg, rgba(3, 38, 66) 0%, rgba(31,10,116,1) 31%, rgba(80,15,129,1) 72%, rgba(3, 38, 66) 100%);
     color: white;
     .modal-content {
         color: rgba(252, 248, 5, 0.918);
